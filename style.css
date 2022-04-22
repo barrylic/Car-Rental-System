@@ -1,0 +1,43 @@
+.main{
+    margin: auto;
+    border: solid 2px lightcyan;
+    border-radius: 2px;
+    width: 400px;
+    height: 320px;
+    text-align: center;
+    font-size: large;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: whitesmoke;
+}
+body{
+    background: url(./wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 28px;
+    margin-bottom: 2px;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+    font-size: 22px;
+}
+.btn{
+    background-color: #59c2c5;
+    width: 38%;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.btn:hover{
+    background-color: #59c2a0;
+}
